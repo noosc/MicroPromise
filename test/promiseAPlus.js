@@ -4,7 +4,7 @@ var fs = require('fs')
 Promise.resolved = Promise.resolve
 Promise.rejected = Promise.reject
 Promise.deferred = function () {
-  promise = new Promise()
+  promise = new Promise(function () {})
   return {
     promise: promise,
     resolve: function (value) {
