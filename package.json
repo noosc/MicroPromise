@@ -4,11 +4,28 @@
   "description": "a Promise implemented by myself for learning Promise",
   "main": "index.js",
   "dependencies": {
-    "request": "^2.69.0"
+    "request": "^2.69.0",
+    "promises-aplus-tests": "*"
   },
   "scripts": {
-    "test": "test"
+    "test": "node test/promiseAPlus.js"
   },
-  "author": "",
-  "license": "MIT"
+  "author": "noosc",
+  "license": "MIT",
+  "directories": {
+    "test": "test/promiseAPlus.js"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noosc/MicroPromise.git"
+  },
+  "keywords": [
+    "promise",
+    "promiseA+"
+  ],
+  "bugs": {
+    "url": "https://github.com/noosc/MicroPromise/issues"
+  },
+  "homepage": "https://github.com/noosc/MicroPromise#readme"
 }

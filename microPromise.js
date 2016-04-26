@@ -141,6 +141,17 @@ MicroPromise.prototype.then = function (onFulfilled, onRejected) {
   return promise
 }
 
+MicroPromise.resolve = function (value) {
+  var promise = new MicroPromise(function () {})
+  promise.resolve(value)
+  return promise
+}
+
+MicroPromise.reject = function (reason) {
+  var promise = new MicroPromise(function () {})
+  return promise
+}
+
 MicroPromise.all = function (promiseArray) {
   var promise = MicroPromise(function () {})
   var state = State.PENDING
