@@ -1,4 +1,4 @@
-var Promise = require('../MicroPromise')
+var Promise = require('../microPromise')
 var promise = new Promise(function (resolve, reject) {
   console.log('start')
   setTimeout(function () {

@@ -1,4 +1,5 @@
-var Promise = require('../MicroPromise')
+var Promise = require('../microPromise')
+var fs = require('fs')
 
 Promise.resolved = Promise.resolve
 Promise.rejected = Promise.reject
