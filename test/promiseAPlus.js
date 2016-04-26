@@ -17,4 +17,6 @@ Promise.deferred = function () {
 }
 
 var promisesAplusTests = require('promises-aplus-tests')
-promisesAplusTests(Promise, function (err) {})
+promisesAplusTests(Promise, function (err) {
+  process.exit(1)
+})
