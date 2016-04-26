@@ -1,0 +1,14 @@
+{
+  "name": "micropromise",
+  "version": "1.0.0",
+  "description": "a Promise implemented by myself for learning Promise",
+  "main": "index.js",
+  "dependencies": {
+    "request": "^2.69.0"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "MIT"
+}
